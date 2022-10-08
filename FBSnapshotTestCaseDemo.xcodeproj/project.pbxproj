@@ -262,6 +262,7 @@
 					};
 					B304491A1AB794320067C75D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = G7548RRQ4Q;
 						LastSwiftMigration = 0920;
 						TestTargetID = B30449011AB794320067C75D;
 					};
@@ -680,6 +681,7 @@
 			baseConfigurationReference = A3A63210980854148203C1F0 /* Pods-FBSnapshotTestCaseDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G7548RRQ4Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -702,6 +704,7 @@
 			baseConfigurationReference = 7A0C46280D01BD793DF00625 /* Pods-FBSnapshotTestCaseDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G7548RRQ4Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
