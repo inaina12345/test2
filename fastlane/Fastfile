@@ -12,7 +12,7 @@ platform :ios do
     lane :unit_tests do
       scan(
         workspace: "FBSnapshotTestCaseDemo.xcworkspace",
-        scheme: "FBSnapshotTestCaseDemoTests",
+        scheme: "FBSnapshotTestCaseDemo",
         devices: ["iPhone 8"]
       )
     end
@@ -21,7 +21,7 @@ platform :ios do
     lane :ui_tests do
       scan(
         workspace: "FBSnapshotTestCaseDemo.xcworkspace",
-        scheme: "FBSnapshotTestCaseDemoTests",
+        scheme: "FBSnapshotTestCaseDemo",
         devices: ["iPhone 8"],
         clean: true
       )
